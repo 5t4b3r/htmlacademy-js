@@ -1,4 +1,4 @@
-function getRandomPositiveInteger (a, b = 1) {
+function getRandomPositiveInteger(a, b = 1) {
   if (a === undefined) {
     throw new Error('Первый параметр должен быть число');
   }
